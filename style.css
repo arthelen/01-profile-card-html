@@ -1,0 +1,74 @@
+body {
+  background-color: lightpink; /* Sets the background color of the page */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Arranges items in a column */
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  height: 100vh; /* Sets the height to fill the viewport */
+  margin: 0; /* Removes default margin */
+  font-family: Arial, sans-serif; /* Sets the font for the page */
+}
+
+h1 {
+  font-size: 3rem; /* Sets the font size for the main heading */
+  text-align: center; /* Centers the text */
+  color: darkpink; /* Sets the text color */
+}
+
+h2 {
+  font-size: 2rem; /* Sets the font size for the subheading */
+  text-align: center; /* Centers the text */
+  color: lightpink; /* Sets the text color */
+}
+
+p {
+  font-size: 1.2rem; /* Sets the font size for the paragraph */
+  line-height: 1.6; /* Sets the spacing between lines */
+  text-align: center; /* Centers the text */
+  margin: 0 20px; /* Adds horizontal margin */
+}
+
+h1, h2, p {
+  margin: 10px 0; /* Adds vertical spacing between elements */
+}
+
+.card {
+  background-color: white; /* Sets the background color of the card */
+  padding: 20px; /* Adds padding inside the card */
+  border: 2px solid #ccc; /* Adds a border with a light gray color */
+  border-radius: 10px; /* Rounds the corners of the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  text-align: center; /* Centers the text inside the card */
+  max-width: 400px; /* Sets the maximum width of the card */
+  width: 90%; /* Sets the card width to 90% of its container */
+}
+
+.profile-image {
+  width: 120px; /* Sets the width of the image */
+  height: 120px; /* Sets the height of the image */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin-bottom: 15px; /* Adds spacing below the image */
+  border: 3px solid #ccc; /* Adds a border around the image */
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points from the list */
+  padding: 0; /* Removes default padding */
+  margin: 15px 0; /* Adds vertical spacing around the list */
+}
+
+ul li {
+  margin: 5px 0; /* Adds vertical spacing between list items */
+}
+
+ul li a {
+  text-decoration: none; /* Removes the underline from links */
+  color: darkpink; /* Sets the link color */
+  font-weight: bold; /* Makes the link text bold */
+  transition: color 0.3s ease; /* Smoothly changes the color on hover */
+}
+
+ul li a:hover {
+  color: hotpink; /* Changes the link color when hovered */
+}
